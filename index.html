@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CODE WITH ANKUSH</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const text = "code with Ankush";
+          const headingElement = document.getElementById('typing-heading');
+          let currentTextIndex = 0;
+    
+          function updateText() {
+            headingElement.textContent = text.substring(0, currentTextIndex);
+            currentTextIndex++;
+    
+            if (currentTextIndex > text.length) {
+              currentTextIndex = 0;
+            }
+          }
+    
+          setInterval(updateText, 250); // Update text every 250 milliseconds
+    
+          const typingElement = document.getElementById('typing-heading');
+          typingElement.classList.add('typing-animation');
+        });
+      </script>
+</head>
+<body>
+    <header>
+        <DIV CLASS="IMAGE"><IMG src="MY IMAGE.jpg"></DIV>
+            <h1 id="typing-heading"></h1>
+            
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/admin/Desktop/New%20folder%20(2)/newf.html">Home</a></li>
+            <li><a href="file:///C:/Users/admin/Desktop/New%20folder%20(2)/about.html">About</a></li>
+            <li><a href="file:///C:/Users/admin/Desktop/New%20folder%20(2)/services.html">Services</a></li>
+            <li><a href="https://formsubmit.co/el/tubepe">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="flex-container">
+            <article>
+                    <CENTER><H2>HTML</H2></CENTER>
+                    <a href="file:///C:/Users/admin/Desktop/New%20folder%20(2)/downlod.php"><center><div class="html"><img src="HTML LOGO.png"></div></center></a>
+            </article>
+            <article>
+                <center><h2>CSS</h2></center>
+                <center><div class="css"><img src="CSS LOGO.png"></div></center>
+                
+            </article>
+            <article>
+                <center><h2>JS</h2></center>
+                <center><div class="js"><img src="javascript-logo.webp"></div></center>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
