@@ -42,7 +42,7 @@
         <p>Click the link below to download the PDF:</p>
         <a class="pdf-link" href="html notes.pdf" download>Download PDF</a>
         <div class="pdf-viewer">
-            <embed src="example.pdf" type="application/pdf" width="100%" height="500">
+            <embed src="html notes.pdf" type="application/pdf" width="100%" height="500">
         </div>
     </div>
 </body>
