@@ -38,11 +38,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>CODE WITH ANKUSH</h1>
-        <p>Click the link below to download the PDF:</p>
-        <a class="pdf-link" href="html notes.pdf" download>Download PDF</a>
-        <div class="pdf-viewer">
-            <embed src="html notes.pdf" type="application/pdf" width="100%" height="500">
+         <iframe src="html notes.pdf" width="800" height="600"></iframe>
         </div>
     </div>
 </body>
