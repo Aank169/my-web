@@ -78,6 +78,36 @@ padding: 10px;
     height: auto;
     padding:10px;
 }
+.py img{
+    display: flex;
+    width: 93%;
+    height: auto;
+    padding:10px;
+}
+.c img{
+    display: flex;
+    width: 93%;
+    height: auto;
+    padding:10px;
+}
+.c++ img{
+    display: flex;
+    width: 93%;
+    height: auto;
+    padding:10px;
+}
+.php img{
+    display: flex;
+    width: 93%;
+    height: auto;
+    padding:10px;
+}
+.reactjs img{
+    display: flex;
+    width: 93%;
+    height: auto;
+    padding:10px;
+}
 .IMAGE IMG{width:100PX;
     height: 100PX;
 border-radius: 80%;
